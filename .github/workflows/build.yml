@@ -26,3 +26,9 @@ jobs:
 
     - name: Build solution
       run: dotnet build Marstek.sln --configuration Release
+
+    - name: Publish
+      uses: actions/upload-artifact@v4.6.1
+      with:
+        name: build-files
+        path: bin/Release/net8.0-windows/*
