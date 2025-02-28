@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Marstek.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ChargeDiff" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="DischargeDiff" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="P1Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.178.6</Value>
+    </Setting>
+    <Setting Name="P1Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="MarstekHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.178.41</Value>
+    </Setting>
+    <Setting Name="MarstekPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1470</Value>
+    </Setting>
+    <Setting Name="ReportUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://192.168.178.35/api/app/com.internet/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
